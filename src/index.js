@@ -108,3 +108,11 @@ altYazi[2].querySelector("h4").textContent =
   siteContent["ana-içerik"]["vizyon-h4"];
 altYazi[2].querySelector("p").textContent =
   siteContent["ana-içerik"]["vizyon-içeriği"];
+
+const iletisimBaslik = document.querySelector(".contact");
+iletisimBaslik.querySelector("h4").textContent =
+  siteContent["iletisim"]["iletişim-h4"];
+const iletisimParagrafi = document.querySelectorAll(".contact p");
+iletisimParagrafi[0].textContent = siteContent["iletisim"]["adres"];
+iletisimParagrafi[1].textContent = siteContent["iletisim"]["telefon"];
+iletisimParagrafi[2].textContent = siteContent["iletisim"]["email"];
