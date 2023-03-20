@@ -83,3 +83,28 @@ const yazi = document.querySelector(".cta-text h1");
 yazi.textContent = siteContent["cta"]["h1"];
 const buton = document.querySelector(".cta-text button");
 buton.textContent = siteContent["cta"]["button"];
+
+const ustYazi = document.querySelectorAll(".top-content .text-content");
+
+ustYazi[0].querySelector("h4").textContent =
+  siteContent["ana-içerik"]["özellikler-h4"];
+ustYazi[0].querySelector("p").textContent =
+  siteContent["ana-içerik"]["özellikler-içerik"];
+ustYazi[1].querySelector("h4").textContent =
+  siteContent["ana-içerik"]["hakkımızda-h4"];
+ustYazi[1].querySelector("p").textContent =
+  siteContent["ana-içerik"]["hakkımızda-içerik"];
+
+const altYazi = document.querySelectorAll(".bottom-content .text-content");
+altYazi[0].querySelector("h4").textContent =
+  siteContent["ana-içerik"]["servisler-h4"];
+altYazi[0].querySelector("p").textContent =
+  siteContent["ana-içerik"]["servisler-içeriği"];
+altYazi[1].querySelector("h4").textContent =
+  siteContent["ana-içerik"]["ürünler-h4"];
+altYazi[1].querySelector("p").textContent =
+  siteContent["ana-içerik"]["ürünler-içeriği"];
+altYazi[2].querySelector("h4").textContent =
+  siteContent["ana-içerik"]["vizyon-h4"];
+altYazi[2].querySelector("p").textContent =
+  siteContent["ana-içerik"]["vizyon-içeriği"];
