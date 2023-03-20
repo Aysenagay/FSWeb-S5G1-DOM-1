@@ -67,3 +67,16 @@ navHtml.forEach((item, index) => {
   item.textContent = siteContent["nav"]["nav-item-" + j];
   item.setAttribute("class", "italic");
 });
+
+document.getElementById("logo-img").src = siteContent["images"]["logo-img"];
+document.getElementById("cta-img").src = siteContent["images"]["cta-img"];
+document.getElementById("middle-img").src = siteContent["images"]["accent-img"];
+
+/*const logo = document.getElementById("logo-img");
+logo.setAttribute("src", "http://localhost:9000/img/logo.png%22);
+
+const circularImage = document.getElementById("cta-img");
+circularImage.setAttribute("src", "http://localhost:9000/img/cta.png%22);
+
+const middleImage = document.getElementById("middle-img");
+middleImage.setAttribute("src", "http://localhost:9000/img/accent.png%22);*/
