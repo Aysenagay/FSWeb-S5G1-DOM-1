@@ -61,7 +61,6 @@ navHtml[2].setAttribute("class", "italic");
 navHtml[3].setAttribute("class", "italic");
 navHtml[4].setAttribute("class", "italic");
 navHtml[5].setAttribute("class", "italic");*/
-
 navHtml.forEach((item, index) => {
   let j = index + 1;
   item.textContent = siteContent["nav"]["nav-item-" + j];
@@ -80,3 +79,7 @@ circularImage.setAttribute("src", "http://localhost:9000/img/cta.png%22);
 
 const middleImage = document.getElementById("middle-img");
 middleImage.setAttribute("src", "http://localhost:9000/img/accent.png%22);*/
+const yazi = document.querySelector(".cta-text h1");
+yazi.textContent = siteContent["cta"]["h1"];
+const buton = document.querySelector(".cta-text button");
+buton.textContent = siteContent["cta"]["button"];
